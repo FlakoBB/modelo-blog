@@ -36,6 +36,7 @@
     background: none;
     color: white;
     font-size: medium;
+    cursor: pointer;
 }
 
 .logo-header .menu {
@@ -62,10 +63,30 @@
 
 .header hr {
     width: 99%;
+    border: none;
+    border-top: 1px solid #535B63;
 }
 
 .navegacion {
     width: 100%;
     height: 40px;
     /* background-color: rgba(200, 200, 200, .5) */
+}
+
+.redes a {
+    text-decoration: none;
+    color: #72da38;
+}
+
+.navegacion nav ul li {
+    list-style: none;
+    display: table;
+}
+
+.navegacion {
+    float: left;
+}
+
+.secciones {
+    float: left;;
 }
