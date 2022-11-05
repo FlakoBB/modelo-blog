@@ -6,7 +6,6 @@
 .header {
     background-color: #212A34;
     height: 240px;
-    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,11 +13,31 @@
     gap: 10px;
 }
 
+.iconos {
+    background-color: #111;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+}
+
+.iconos a {
+    color: #707070;
+    right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.iconos a:hover {
+    color: #a0a0a0;
+}
+
 .logo-header {
     /* background-color: rgba(200, 200, 200, .5) */
     width: 100%;
     position: relative;
-    height: 200px;
+    height: 136px;
 }
 
 .logo-header a {
@@ -27,7 +46,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: none;
-    color: white;
+    color: #72da38;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .logo-header button {
@@ -56,7 +77,6 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
     height: 100%;
     width: 300px;
 }
@@ -69,7 +89,8 @@
 
 .navegacion {
     width: 100%;
-    height: 40px;
+    height: 72px;
+    padding: 0px 10px;
     /* background-color: rgba(200, 200, 200, .5) */
 }
 
@@ -78,15 +99,37 @@
     color: #72da38;
 }
 
-.navegacion nav ul li {
-    list-style: none;
-    display: table;
+.secciones a {
+    text-decoration: none;
+    color: white;
 }
 
-.navegacion {
+.navegacion .buscar {
+    text-decoration: none;
+    color: #72da38;
+    position: relative;
+}
+
+.navegacion .nav-redes ul li {
+    list-style: none;
+    float: left;
+    margin: 0px 5px;
+}
+
+.navegacion .nav-redes {
+    float: right;
+}
+
+.navegacion .nav-secciones ul li {
+    list-style: none;
+    float: left;
+    margin: 0px 20px;
+}
+
+.navegacion .nav-secciones {
     float: left;
 }
 
-.secciones {
-    float: left;;
+.navegacion .secciones li a:hover {
+    text-decoration: underline;
 }
