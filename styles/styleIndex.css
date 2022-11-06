@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+/*Estilos Header*/
+
 .header {
     background-color: #212A34;
     height: 240px;
@@ -26,7 +28,9 @@
     color: #707070;
     right: 10px;
     font-weight: bold;
+    font-size: 30px;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .iconos a:hover {
@@ -138,4 +142,12 @@
 
 .navegacion .secciones li a:hover {
     text-decoration: underline;
+}
+
+/* Estilos Articulo */
+
+.articulo {
+    position: relative;
+    background-color: #707070;
+    height: 100%;
 }
