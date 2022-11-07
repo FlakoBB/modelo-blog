@@ -144,10 +144,41 @@
     text-decoration: underline;
 }
 
-/* Estilos Articulo */
+/* Estilos Notas */
 
-.articulo {
+.notas {
+    background-color: #a0a0a0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.notas .nota {
     position: relative;
-    background-color: #707070;
-    height: 100%;
+    border: 4px solid #707070;
+    width: 300px;
+    height: 300px;
+}
+
+.notas .nota img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: .6;
+}
+
+.notas .nota img:hover {
+    opacity: 1;
+}
+
+.notas .nota:hover {
+    border: 4px solid #72da38;
+}
+
+.notas .nota span {
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    font-size: x-large;
 }
