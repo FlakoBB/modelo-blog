@@ -144,10 +144,48 @@
     text-decoration: underline;
 }
 
-/* Estilos Articulo */
+/* Estilos Notas */
 
-.articulo {
+.notas {
+    background-color: #212A34;
+    width: 100%;
+    height: calc(100vh - 240px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.notas .nota {
     position: relative;
-    background-color: #707070;
+    border: 4px solid rgba(255, 255, 255, .2);
+    width: 400px;
+    height: 300px;
+}
+
+.notas .nota img {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
+    opacity: .6;
+}
+
+.notas .nota img:hover {
+    opacity: 1;
+}
+
+.notas .nota:hover {
+    border: 4px solid #72da38;
+    cursor: pointer;
+}
+
+.notas .nota span {
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    color: rgb(220, 220, 220);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 0 0 #111;
+    /* -webkit-text-stroke: 1px black; */
 }
