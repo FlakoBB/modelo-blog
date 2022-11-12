@@ -106,6 +106,14 @@ body {
     color: #72da38;
 }
 
+.redes a img {
+    width: 24px;
+}
+
+.nav-redes {
+    margin-right: 16px;
+}
+
 .secciones a {
     text-decoration: none;
     color: white;
