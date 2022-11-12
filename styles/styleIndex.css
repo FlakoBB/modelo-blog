@@ -298,12 +298,39 @@ body {
     content: " - ";
 }
 
-.recomendado {
+/* Bloques de secciones */
+
+.bloque-seccion {
     width: 100%;
     height: 300px;
-    background-color: #212A34;
+    background-color: #141300;
+    padding: 20px;
 }
 
-.recomendado p {
-    color: #ffe77c;
+.bloque-seccion .menu-seccion {
+    width: 20%;
+}
+
+.bloque-seccion .menu-seccion .nombre-seccion h1 a {
+    text-decoration: none;
+    color: #0075c2;
+    text-transform: uppercase;
+}
+
+.bloque-seccion .menu-seccion .subsecciones {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+.bloque-seccion .menu-seccion .subsecciones ul li {
+    padding: 6px;
+    list-style: none;
+}
+
+.bloque-seccion .menu-seccion .subsecciones ul li a, .bloque-seccion .menu-seccion .mas-seccion a {
+    text-decoration: none;
+    color: #E0E0E0;
+    text-transform: uppercase;
 }
