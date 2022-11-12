@@ -254,6 +254,10 @@ body {
     color: #111;
 }
 
+.articulo .info-articulo header h2 a:hover {
+    color: #d8393a;
+}
+
 .articulo .info-articulo header .categoria-articulo {
     text-decoration: none;
     text-transform: uppercase;
@@ -273,6 +277,10 @@ body {
     text-decoration: none;
     color: #707070;
     text-transform: uppercase;
+}
+
+.articulo .desc-articulo a:hover {
+    color: #d8393a;
 }
 
 .articulo footer {
