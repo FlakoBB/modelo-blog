@@ -305,10 +305,12 @@ body {
     height: 300px;
     background-color: #141300;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .bloque-seccion .menu-seccion {
     width: 20%;
+    float: left;
 }
 
 .bloque-seccion .menu-seccion .nombre-seccion h1 a {
@@ -333,4 +335,37 @@ body {
     text-decoration: none;
     color: #E0E0E0;
     text-transform: uppercase;
+}
+
+.bloque-seccion .notas-seccion {
+    width: 80%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.bloque-seccion .notas-seccion .nota-blq {
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.notas-seccion .nota-blq a img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    opacity: .8;
+}
+
+.notas-seccion .nota-blq a {
+    text-decoration: none;
+    color: #E0E0E0;
+}
+
+.notas-seccion .nota-blq a:hover img {
+    opacity: 1;
 }
