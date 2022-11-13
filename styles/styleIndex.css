@@ -370,3 +370,117 @@ body {
 .notas-seccion .nota-blq a:hover img {
     opacity: 1;
 }
+
+.footer-principal {
+    box-sizing: border-box;
+    padding: 30px 30px 0 30px;
+    width: 100%;
+    height: 350px;
+    background-color: #EAECEF;
+}
+
+.footer-principal .contenedor-footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.contenedor-footer .suscripcion {
+    float: right;
+    width: 30%;
+}
+
+.suscripcion form .mensaje-sus {
+    font-size: 24px;
+}
+
+.suscripcion form p {
+    margin-top: 15px;
+}
+
+.suscripcion form p #correo {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 4px;
+    border: none;
+    outline: none;
+}
+
+.suscripcion form p button {
+    width: calc(30% - 4px);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #378708;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+.suscripcion form p button:hover {
+background-color: #327909;
+}
+
+.suscripcion .siguenos {
+    margin-top: 60px;
+    display: flex;
+    gap: 15px;
+}
+
+.siguenos .lista-siguenos {
+    display: flex;
+    gap: 15px;
+}
+
+.lista-siguenos li {
+    list-style: none;
+}
+
+.buscador {
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.contenedor-buscador input {
+    box-sizing: border-box;
+    padding: 30px 20px;
+    width: 88%;
+    border: none;
+    outline: none;
+}
+
+.contenedor-buscador button {
+    box-sizing: border-box;
+    width: 10%;
+    padding: 30px 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contenedor-footer .temas {
+    width: 70%;
+}
+
+.temas p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.temas .lista-temas ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    text-align: left;
+}
+
+.lista-temas ul li {
+    width: 33%;
+}
