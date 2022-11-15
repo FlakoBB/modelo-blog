@@ -439,6 +439,10 @@ background-color: #327909;
     list-style: none;
 }
 
+.lista-siguenos li a .logos-og {
+    width: 32px;
+}
+
 .buscador {
     position: absolute;
     background-color: white;
@@ -459,10 +463,13 @@ background-color: #327909;
 .contenedor-buscador button {
     box-sizing: border-box;
     width: 10%;
-    padding: 30px 10px;
     background: none;
     border: none;
     cursor: pointer;
+}
+
+.contenedor-buscador button .buscar-og {
+    width: 32px;
 }
 
 .contenedor-footer .temas {
@@ -472,6 +479,7 @@ background-color: #327909;
 .temas p {
     text-transform: uppercase;
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .temas .lista-temas ul {
@@ -479,8 +487,39 @@ background-color: #327909;
     width: 100%;
     list-style: none;
     text-align: left;
+    justify-content:left;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 
 .lista-temas ul li {
     width: 33%;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.lista-temas ul li a {
+    text-decoration: none;
+    color: #707070;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.lista-temas ul li a:hover {
+    background-color: #a0a0a0;
+    color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.temas .btn-mastemas {
+    padding: 10px;
+    background-color: #535B63;
+    color: white;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
 }
